@@ -1,7 +1,7 @@
 # College Enterprise Resource Planner
 This is a College Enterprise Resource Planner Developed by me and my project partners for my college.
 We use Python/Django Framwork for building an fully functional web application. (If facing problem!! : put discussion)
-## Deployed at <a href="https://syncx.pythonanywhere.com" target="_blank" rel="SIGCE"><span> SIGCE</span></a>   v1.1.0
+## Deployed at <a href="https://syncx.pythonanywhere.com" target="_blank" rel="SLRTCE"><span> SIGCE</span></a>   v1.1.0
 
 For viewing the home page of student or staff you must have required credentials given below
 
@@ -41,140 +41,6 @@ Password : `staff@erp`
 4. Apply for Leave
 5. Send Feedback to HOD
 
-
-## Support Developer
-1. Add a Star 🌟  to this 👆 Repository
-2. Follow on Github & LinkedIn 
-
-
-## How to Install and Run this project?
-
-### Pre-Requisites:
-1. Install Git Version Control
-[ https://git-scm.com/ ]
-
-2. Install Python Latest Version
-[ https://www.python.org/downloads/ ]
-
-3. Install Pip (Package Manager)
-[ https://pip.pypa.io/en/stable/installing/ ]
-
-*Alternative to Pip is Homebrew*
-
-### Installation
-**1. Create a Folder where you want to save the project**
-
-**2. Create a Virtual Environment and Activate**
-
-If you have conda installed in your system
-```
-$  conda env create -f college-erp.yml
-```
-
-Activate created conda environment
-```
-$  conda activate Django-env
-```
-
-Else Install Virtual Environment First
-```
-$  pip install virtualenv
-```
-
-Create Virtual Environment
-
-For Windows
-```
-$  python -m venv venv
-```
-For Mac
-```
-$  python3 -m venv venv
-```
-For Linux
-```
-$  virtualenv .
-```
-
-Activate Virtual Environment
-
-For Windows
-```
-$  source venv/scripts/activate
-```
-
-For Mac
-```
-$  source venv/bin/activate
-```
-
-For Linux
-```
-$  source bin/activate
-```
-
-**3. Clone this project**
-```
-$  git clone https://github.com/Ansarimajid/College-ERP.git
-```
-
-Then, Enter the project
-```
-$  cd College-ERP
-```
-
-**4. Install Requirements from 'requirements.txt'**
-```python
-$  pip3 install -r requirements.txt
-```
-
-**5. Add the hosts**
-
-- Got to settings.py file 
-- Then, On allowed hosts, Use **[]** as your host. 
-```python
-ALLOWED_HOSTS = []
-```
-*Do not use the fault allowed settings in this repo. It has security risk!*
-
-
-**6. Now Run Server**
-
-Command for PC:
-```python
-$ python manage.py runserver
-```
-
-Command for Mac:
-```python
-$ python3 manage.py runserver
-```
-
-Command for Linux:
-```python
-$ python3 manage.py runserver
-```
-
-**7. Login Credentials**
-
-Create Super User (HOD)
-Command for PC:
-```
-$  python manage.py createsuperuser
-```
-
-Command for Mac:
-```
-$  python3 manage.py createsuperuser
-```
-
-Command for Linux:
-```
-$  python3 manage.py createsuperuser
-```
-
-
-
 ## Project's Journey
 - [x] Admin/Staff/Student Login
 - [x] Add and Edit Course
@@ -210,3 +76,17 @@ $  python3 manage.py createsuperuser
 - [x] Student View Result
 - [x] Change all links to be dynamic
 - [x] Code Restructure - Very Important
+
+Output/Screenshots:
+<img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/92f31b33-3c4f-4f49-9e27-dd01b76370dc" />
+<img width="1051" height="477" alt="image" src="https://github.com/user-attachments/assets/595f90f5-a27b-4912-b8cf-5c8d9dc1bdd7" />
+<img width="1280" height="608" alt="image" src="https://github.com/user-attachments/assets/e628610c-0a2d-4329-9126-b35843365290" />
+<img width="1280" height="645" alt="image" src="https://github.com/user-attachments/assets/f20dc0c2-ec41-4a58-bb7f-228d0f72449a" />
+<img width="1280" height="647" alt="image" src="https://github.com/user-attachments/assets/17aaf55b-1467-44c5-b750-c63dc8081968" />
+
+
+
+
+
+
+
